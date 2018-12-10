@@ -1,3 +1,47 @@
 body {
-  background: #f3f0e2;
+
+}
+
+a {
+  color: #0fd887;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header, footer {
+  background: #C5796D;
+  color: #fff;
+}
+
+.work {
+  background: #DBE6F6;
+  color: #363535;
+}
+
+.education {
+  background: #dcb0a9;
+  color: #232222;
+  }
+
+h1 {
+  font-family: "Contrail One", cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Contrail One", cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
 }
