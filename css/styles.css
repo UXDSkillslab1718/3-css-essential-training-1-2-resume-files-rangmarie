@@ -15,6 +15,23 @@ body {
   margin:0;
 }
 
+nav {
+  text-align: center;
+  background: #985b52;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
 h1 {
   font-family: "Contrail One", cursive;
   font-size: 60px;
@@ -43,6 +60,10 @@ a:hover {
 header, footer {
   background: #C5796D;
   color: #fff;
+}
+
+header {
+  padding-top: 50px;
 }
 
 .img {
@@ -82,7 +103,7 @@ h3 ~ p {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: hidden;
 }
 
@@ -101,4 +122,11 @@ h3 ~ p {
 
 .job-desc p:first-of-type {
   margin-top:0;
+}
+
+.btn {
+  text-decoration: none;
+  background: #985b52;
+  padding: 10px;
+  color: #fff;
 }
