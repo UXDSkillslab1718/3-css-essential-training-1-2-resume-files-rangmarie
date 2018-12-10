@@ -1,7 +1,17 @@
 /* i already know all this and i changed and played with the fonts in chapter two as you can tell if you look at my files*/
 
-body {
+html {
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  margin:0;
 }
 
 a {
@@ -18,6 +28,22 @@ header, footer {
   color: #fff;
 }
 
+.img {
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
 .work {
   background: #DBE6F6;
   color: #363535;
@@ -27,6 +53,26 @@ header, footer {
   background: #dcb0a9;
   color: #232222;
   }
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
 
 h1 {
   font-family: "Contrail One", cursive;
@@ -41,9 +87,4 @@ h2 {
 h3 {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
-}
-
-p {
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 400;
 }
