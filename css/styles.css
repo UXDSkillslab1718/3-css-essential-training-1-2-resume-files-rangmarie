@@ -1,4 +1,5 @@
 /* i already know all this and i changed and played with the fonts in chapter two as you can tell if you look at my files*/
+/* ~ */
 
 html {
   box-sizing: border-box;
@@ -12,6 +13,22 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 400;
   margin:0;
+}
+
+h1 {
+  font-family: "Contrail One", cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Contrail One", cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  margin: 0;
 }
 
 a {
@@ -54,6 +71,14 @@ footer {
   color: #232222;
   }
 
+p + h3 {
+  margin-top: 30px;
+}
+
+h3 ~ p {
+  margin: 0;
+}
+
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
@@ -64,27 +89,16 @@ footer {
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
+  min-height: 150px;
 }
 
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+  min-height: 150px;
 }
 
-h1 {
-  font-family: "Contrail One", cursive;
-  font-size: 60px;
-}
-
-h2 {
-  font-family: "Contrail One", cursive;
-  font-size: 30px;
-}
-
-h3 {
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 700;
+.job-desc p:first-of-type {
+  margin-top:0;
 }
