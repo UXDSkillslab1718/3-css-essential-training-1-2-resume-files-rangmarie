@@ -88,8 +88,11 @@ footer {
 }
 
 .education {
-  background: #dcb0a9;
   color: #232222;
+  background: linear-gradient(rgba(141,153,174, 0.8), rgba(141,153,174, 0.5)),
+    url(../images/toronto.jpg) no-repeat fixed;
+    background-size: cover;
+
   }
 
 p + h3 {
